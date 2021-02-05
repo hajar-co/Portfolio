@@ -49,8 +49,14 @@ h2 {
     margin-left: 75px;
     
 
+/*---section experience*/
+.experience{
+    width: calc(100% - 300px);
+    position: relative;
+    margin-left: auto;
 }
 
+<<<<<<< HEAD
 .contan {
     grid-area: 2/2 / 3/4;
     background-color: rgb(245, 245, 248);
@@ -142,10 +148,50 @@ h2 {
     text-align: center;
     font-size: 50px;
 }
+=======
+
+.experiences-grid{
+    
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: repeat(10,1fr);    
+}
+
+h2{
+    font-size: 50px;
+    text-align: center;
+}
+
+.experience-cart{
+    border: solid 2px #90EAF7;
+    border-radius: 27px;
+    grid-area: 2/2 / 4/9;
+    padding: 18px
+}
+
+h3{
+font-size: 15px;
+display: inline-block
+
+}
+
+.experience-cart.one{
+    grid-area: 5/3 /7/10;
+}
+
+.experience-cart.two{
+    grid-area: 8/4 / 10/11;
+}
+
+p{
+    padding-top: 27px;
+>>>>>>> 816e813d08f8739f4b9af4a28c266b719842d1d7
 }
 
 .title {
 
+<<<<<<< HEAD
     text-align: center;
     height: 66px;
     font-size: xx-large;
@@ -212,3 +258,41 @@ p {
 h3, h5, p {
     padding-left: 15px;
 }
+=======
+/*--section contact--*/
+.contact h2{
+    color: white;
+}
+.contact{
+    width: calc(100% - 300px);  
+    width: calc(100% - 300px);
+    position: relative;
+    margin-left: auto;
+    background-image: url('photos-pole-sud38.jpg');
+    background-size: cover;
+}  
+form{
+    
+    display: grid;
+    grid-template-columns: 1fr;   
+}
+label{
+    display: block;
+}
+input,textarea{
+    width: 100%;
+    padding: 10px;
+}
+.formgroup{
+    width: calc(100% - 300px);
+    height: 100px;
+    margin: auto; 
+}
+
+button{
+    padding: 12px;
+    padding-left: 34px;
+    padding-right: 34px;
+}
+
+>>>>>>> 816e813d08f8739f4b9af4a28c266b719842d1d7
