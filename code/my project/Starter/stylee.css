@@ -1,0 +1,72 @@
+.presentation {
+    width: 30px;
+    position:fixed ;
+    overflow: auto ;
+    border-top: 1em ;
+    border-bottom: 1em;
+    color: red;
+}
+.fond-forme {
+    background: rgb(153, 219, 19) ;
+    background-image: none ;
+    width: 1em ;
+    height: 1em ;
+    position: fixed;
+    transform: rotate(-45deg) translateX(100px) translateY(-15px);
+    z-index: -1;
+}
+
+.titre-pres {
+    font-size: 1em ;
+    text-align:center ;
+    margin: 2em ;
+    padding-left: 1em  ;
+}
+
+.container-presentation {
+    display: flex;
+    width: 0.5em;
+    justify-content: center ;
+    align-items: flex-end ;
+    margin: 0px;
+    flex-shrink: 0;
+    padding-left:0px ;
+}
+.pres-gauche {
+    width: 600px;
+    flex-shrink: 0;
+    margin-bottom: 50px;
+    padding-left: 120px;
+    padding-top: 20px;
+}
+.pres-gauche h3 {
+    text-align: ;
+    font-size: ;
+    letter-spacing: ;
+}
+.pres-gauche hr {
+    width: 23px ;
+    margin: 0em;
+}
+.pres-gauche p {
+    text-align:center ;
+}
+
+.pres-droite {
+    width: 120px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: flex-start;
+}
+.liste-presentation {
+    list-style-type: lower-greek;
+    padding: 0em;
+}
+.chiffre-style {
+    font-family: 'Potta One', sans-serif;
+    font-size: 12px ;
+}
+.txt-liste {
+    font-size: initial ;
+    display: unset;
+}

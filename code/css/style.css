@@ -37,7 +37,7 @@ body > section{
     background-color: white;
     display: grid;
     grid-template-columns: repeat(12,1fr);
-    grid-template-rows: repeat(12,1fr);    
+    grid-template-rows: repeat(10,1fr);    
 }
 
 h2{
@@ -98,7 +98,12 @@ input,textarea{
 .formgroup{
     width: calc(100% - 300px);
     height: 100px;
-    margin: auto;
-    
+    margin: auto; 
 }
-.
+
+button{
+    padding: 12px;
+    padding-left: 34px;
+    padding-right: 34px;
+}
+
