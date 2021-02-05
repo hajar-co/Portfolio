@@ -1,0 +1,104 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+scroll-behavior: smooth;
+}
+body > section{
+    width: calc(100% - 300px);
+    margin-left:auto;
+    font-family: 'Poppins', sans-serif;
+    background: #f1f1f1;
+}
+
+.navigation{
+    width: 300px;
+    height: 600px;
+    background-color: #90EAF7;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    border-right: 2px dashed #f1f1f1;
+    z-index: -5;
+}
+
+/*---section experience*/
+.experience{
+    width: calc(100% - 300px);
+    position: relative;
+    margin-left: auto;
+}
+
+
+.experiences-grid{
+    
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: repeat(12,1fr);    
+}
+
+h2{
+    font-size: 50px;
+    text-align: center;
+}
+
+.experience-cart{
+    border: solid 2px #90EAF7;
+    border-radius: 27px;
+    grid-area: 2/2 / 4/9;
+    padding: 18px
+}
+
+h3{
+font-size: 15px;
+display: inline-block
+
+}
+
+.experience-cart.one{
+    grid-area: 5/3 /7/10;
+}
+
+.experience-cart.two{
+    grid-area: 8/4 / 10/11;
+}
+
+p{
+    padding-top: 27px;
+}
+
+
+/*--section contact--*/
+.contact h2{
+    color: white;
+}
+.contact{
+    width: calc(100% - 300px);  
+    width: calc(100% - 300px);
+    position: relative;
+    margin-left: auto;
+    background-image: url('photos-pole-sud38.jpg');
+    background-size: cover;
+}  
+form{
+    
+    display: grid;
+    grid-template-columns: 1fr;   
+}
+label{
+    display: block;
+}
+input,textarea{
+    width: 100%;
+    padding: 10px;
+}
+.formgroup{
+    width: calc(100% - 300px);
+    height: 100px;
+    margin: auto;
+    
+}
+.
